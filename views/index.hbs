@@ -1,0 +1,13 @@
+{{> head}}
+{{> navbar}} 
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">{{ toUpper vars.title }}</h1>
+        <p class="small">Título uppercase mediante helpers</p>
+        <p class="lead">{{ vars.desc }} </p>
+        <p>{{ vars.amp }} </p>
+    </div>
+</div>
+
+{{> footer}}

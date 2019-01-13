@@ -1,0 +1,18 @@
+{
+  "name": "heroku",
+  "version": "1.0.0",
+  "description": "Aplicación prueba con subida a la nube",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "nodemon": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Héctor Ochoa",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1"
+  }
+}
